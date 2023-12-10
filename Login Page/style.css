@@ -341,7 +341,6 @@
       border: none;
     }
     
-  
   #register {
     position: absolute;
     color: white;
@@ -351,7 +350,6 @@
     bottom: 1%;
     left: 5rem;
   }
-  
   
   .input-container {
     position: relative;
@@ -423,36 +421,19 @@
     font-size: 14px;
     color: white;
   }
-  input[type="text"],
-  input[type="password"] {
+  .input {
+    width: 100%;
     outline: none;
+    border: 2px solid var(--text-color);
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
   }
-  input[type="text"]:focus,
-  input[type="password"]:focus {
-    outline: 2px solid var(--bg-color);
-  }
-  
-  
-  :root {
-    --text-color: var(--bg-color);
-    --font: "Outfit", sans-serif;
-    --placeholder-color: white;
-  }
-  
-  body {
-    font-family: var(--font);
-    
-  }
-  
-  .input-container input {
-    color: white;
-    border: none;
-  }
-  
-  .input-container input::placeholder {
-    color: var(--placeholder-color);
-  }
-  
   label {
     color: var(--text-color);
   }
@@ -460,25 +441,23 @@
   
   #txt > p {
     color: var(--text-color);
-    font-family: var(--font);
     margin-bottom: 7px;
     font-size: 1.6em;
   }
   button[type="submit"] {
     margin-top: 3rem;
     font-size: 1.5em;
-    background-color: var(--text-color);
+    background-color: var(--bg-color);
     border-radius: 5px;
-    color: #f9fdfe;
+    color: var(--text-color);
     width: 8rem;
     height: 41px;
-    font-family: "Sarpanch", sans-serif;
     border: none;
     z-index: 1;
   
     cursor: pointer;
   }
   button[type="submit"]:hover {
-    background-color: var(--bg-color);
+    background-color: var(--main-color);
     color: white;
   }
