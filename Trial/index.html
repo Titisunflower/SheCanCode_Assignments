@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Mobile Money System</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Mobile Money System</h1>
+    
+    <form id="accessForm">
+      <label for="accessCode">Enter the code *182#:</label>
+      <input type="text" id="accessCode" name="accessCode" required>
+      <button type="button" onclick="checkAccessCode()">Enter</button>
+    </form>
+
+    <div id="mobileMoneySystem" style="display: none;">
+      <div id="menu"></div>
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

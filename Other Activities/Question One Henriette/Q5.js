@@ -1,0 +1,23 @@
+let firstEx = true + 100; 
+let secondex = true + "100"; 
+let thirdEx = 100 + true;
+let fourthEx = 100 + "200";
+let fifthEx = 100n + "200"; 
+let sixthEx = "100" + 200;
+let seventhEx = "100" + 200n;
+let eightEx = "100" + true;
+let ninethEx = "abc" + 200;
+let tenthEx = "abc" + 200n;
+let eleventhEx = "abc" + true;
+
+console.log(`${firstEx} [${typeof firstEx}]`);
+console.log(`${secondex} [${typeof secondex}]`);    
+console.log(`${thirdEx} [${typeof thirdEx}]`);
+console.log(`${fourthEx} [${typeof fourthEx}]`);
+console.log(`${fifthEx} [${typeof fifthEx}]`);  
+console.log(`${sixthEx} [${typeof sixthEx}]`); 
+console.log(`${seventhEx} [${typeof seventhEx}]`);
+console.log(`${eightEx} [${typeof eightEx}]`); 
+console.log(`${ninethEx} [${typeof ninethEx}]`);
+console.log(`${tenthEx} [${typeof tenthEx}]`);
+console.log(`${eleventhEx} [${typeof eleventhEx}]`);

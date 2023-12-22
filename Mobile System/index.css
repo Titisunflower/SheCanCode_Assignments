@@ -1,0 +1,61 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #147355;
+}
+.Container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #84EE9C;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ h1 {
+    text-align: center;
+    color: #147355;
+ }
+ form {
+    text-align: center;
+ }
+ label {
+    display: block;
+    margin-bottom: 10px;
+ }
+ input {
+    padding: 8px;
+    margin-bottom: 20px;
+ }
+ button {
+    padding: 10px;
+    background-color: #147355;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+button:hover {
+    background-color: #fff;
+}
+#momo {
+    margin-top: 20px;
+    display: none;
+}
+#menu {
+    background-color: #147355;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+}
+#output {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #84EE9C;
+    border-radius: 4px;
+}
+#userChoice {
+    padding: 8px;
+    margin-top: 10px;
+}
+

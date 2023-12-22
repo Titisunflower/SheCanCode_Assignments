@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="Container">
+        <h1>Mobile Money System</h1>
+        <form id="accessForm">
+            <label for="code">Enter code *182#:</label>
+            <input type="text" id="code" name="code" required>
+            <button type="button" onclick="checkCode()">Submit</button>
+        </form>
+        <div id="momo"></div>
+        <div id="menu"></div>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
